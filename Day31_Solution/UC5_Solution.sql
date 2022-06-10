@@ -25,3 +25,8 @@ INSERT INTO employee_Payroll_table VALUES ('Terisa',Null,Null,'','F',3000000,0,0
 
 --- Printing the Table with all columns
 SELECT * FROM employee_Payroll_table;
+
+
+--- Geting data by using Where
+SELECT Basic_Pay FROM employee_payroll_table
+WHERE EmployeeName = 'Bill'
