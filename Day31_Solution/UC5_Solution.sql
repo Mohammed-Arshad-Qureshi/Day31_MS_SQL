@@ -30,3 +30,6 @@ SELECT * FROM employee_Payroll_table;
 --- Geting data by using Where
 SELECT Basic_Pay FROM employee_payroll_table
 WHERE EmployeeName = 'Bill'
+
+WHERE start BETWEEN CAST('2018-01-01'
+AS DATE) AND DATE(NOW());
